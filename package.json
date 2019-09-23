@@ -1,0 +1,20 @@
+{
+  "name": "pixijstest",
+  "version": "1.0.0",
+  "description": "Project built to impress",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack --watch & live-server --port=8085"
+  },
+  "author": "Gavyn Elrick",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "phaser": "^3.19.0",
+    "ts-loader": "^6.1.0",
+    "typescript": "^3.6.3",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
+  }
+}
